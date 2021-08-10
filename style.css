@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    border: 0%;
+    padding: 0%;
+    background-color: #404040;
+}
+
+
+.logo {
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    padding: 0px 0px 0px 20px;
+}
+
+li, a, button {
+    font-family: "montserrat" , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    }
+
+
+    
+.left {
+      float:left; 
+      width:25%;
+      height:100px;
+      padding-top:20px;
+      padding-left:100px;
+      padding-right:0px;
+      }
+
+.middle{
+      float:left;
+      width:50%;
+      height:100px;
+      padding-top:20px;
+      padding-left:160px;
+      padding-right:0px;
+}
+
+.right{
+      float:right;
+      width:25%;
+      height:100px;
+      padding-top:20px;
+      padding-left:100px;
+      padding-right:0px;
+            }
+
+
+.nav_links {
+    list-style: none;
+    align-content: center;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    background-color: transparent;
+    color: white;
+    transition: all 0.s ease 0s;
+    padding: 10px 20px;
+}
+
+.nav_links li a:hover,:active {
+    background-color: grey;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s;
+}
+
+
+
+button {
+    padding: 9px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: transparent;
+}
+
+.heading {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 10px 10px;
+}
+
+.menu {
+  background-color: transparent;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 80px 40px 60px 80px;
+
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+.Box {
+   width: 100%;
+   background-color: white;
+}
+
+
+.box{
+    display: inline-block;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 10px 10px;
+    border-radius: 10px;
+    overflow:hidden;
+    width:230px;
+    background-color: #ffffff;
+}
+
+.box:hover {
+  transform: translate(0, -8px);
+}
+
+.img{
+    width:100%;
+    height: 300px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text strong{
+    color: black;
+    display: inline-block;
+    margin: 10px;
+}
+.text{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 15px ;
+    
+}
+
+.text p{
+    color:#979797;
+    margin: 0px;
+}
+
+@media(max-width:680px){
+      .box{
+        width:190px;
+        margin: 20px 5px;
+      }
+}
+
+
+.trans {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+.left_footer {
+      float:left; 
+      width:30%;
+      height:100px;
+      padding-top:20px;
+      padding-left:100px;
+      padding-right:0px;
+      padding-bottom: 100px;
+      }
+
+.middle_footer{
+      float:left;
+      width:40%;
+      height:140px;
+      padding-top:px;
+      padding-left:160px;
+      padding-right:0px;
+      padding-bottom: 100px;
+}
+
+.right_footer{
+      float:right;
+      width:30%;
+      height:140px;
+      padding-top:px;
+      padding-left:0px;
+      padding-right:0px;
+      padding-bottom: 100px;
+            }
+
+
+.Foot_links {
+  list-style: none;
+}
+
+.Foot_links li {
+  background-color: transparent;
+  display: inline-block;
+
+}
+
+.Foot_links li a {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+}
+
+.Foot_links li a:hover,:active {
+    background-color:transparent;
+    color: grey;
+    transition: all ease 0.2s;
+}
+
